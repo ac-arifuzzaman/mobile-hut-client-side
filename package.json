@@ -5,13 +5,10 @@
   "dependencies": {
     "@emotion/react": "^11.7.1",
     "@emotion/styled": "^11.6.0",
-<<<<<<< HEAD
-    "@mui/material": "^5.2.7",
-=======
     "@mui/icons-material": "^5.2.5",
     "@mui/material": "^5.2.6",
     "@mui/styles": "^5.2.3",
->>>>>>> b447309cc97d6c1634af8ab9a5331a8066ddbd41
+    "@reduxjs/toolkit": "^1.7.1",
     "@testing-library/jest-dom": "^5.16.1",
     "@testing-library/react": "^12.1.2",
     "@testing-library/user-event": "^13.5.0",
@@ -24,6 +21,7 @@
     "react-dom": "^17.0.2",
     "react-hook-form": "^7.22.5",
     "react-icons": "^4.3.1",
+    "react-redux": "^7.2.6",
     "react-router-dom": "^6.2.1",
     "react-scripts": "5.0.0",
     "sweetalert": "^2.1.2",

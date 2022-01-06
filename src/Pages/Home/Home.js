@@ -4,8 +4,6 @@ import Banner from '../Banner/Banner';
 import Footer from '../Footer/Footer';
 import Header from '../Header/Header';
 import Products from '../Products/Products';
-import AddReview from '../Review/AddReview';
-import Reviews from '../Review/Reviews';
 
 
 

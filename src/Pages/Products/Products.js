@@ -1,8 +1,10 @@
 import React, { useEffect, useState } from 'react';
 import { Spinner } from 'react-bootstrap';
+// import { useDispatch, useSelector } from 'react-redux';
 import useAuth from '../hooks/useAuth';
+// import { fetchProducts } from '../Redux/Slice/productSlice';
 import Product from './Product';
-import './Product.css'
+import './Product.css';
 
 const Products = () => {
     const [users, setusers] = useState([])
@@ -13,6 +15,11 @@ const Products = () => {
             .then(data => setusers(data));
     }, [])
     console.log(users);
+//     const dispatch = useDispatch()
+//   useEffect(() => {
+//     dispatch(fetchProducts())
+//   }, [dispatch]);
+//   const products = useSelector(state => state.products.discover)
     const { isLoading } = useAuth();
     if (isLoading) {
         return <Spinner animation="border" variant="secondary" />
